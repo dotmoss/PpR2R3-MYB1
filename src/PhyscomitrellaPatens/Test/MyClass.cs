@@ -6,9 +6,7 @@ internal class MyClass : IReadyToRunType
 {
     public static void MyMethod(int value1, int value2)
     {
-        MethodBody(() =>
-        {
-            mov(rax, rcx);
-        });
+        mov(r14, rax);
+        mov(rax, rax);
     }
 }
